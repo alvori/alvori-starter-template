@@ -16,7 +16,7 @@ const gitUser = () => {
     return (name || '') + (email || '')
 }
 
-exports.values = [
+exports.questions = [
     {
         type: 'input',
         name: 'name',
