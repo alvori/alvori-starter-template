@@ -1,6 +1,6 @@
 # Alvori Freamwork App Default Template
 
-Starter Kit for a [Alvori App](https://github.com/alvori/alvori-app) Project.
+Starter Template for a [Alvori App](https://github.com/alvori/alvori-app) Project.
 
 ## Usage
 
