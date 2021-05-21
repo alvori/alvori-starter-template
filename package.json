@@ -30,7 +30,7 @@
     "homepage": "https://github.com/alvori/alvori-starter-template",
     "license": "MIT",
     "devDependencies": {
-        "@alvori/app": "^1.0.0-beta.3"
+        "@alvori/app": "^1.0.0-beta.4"
     },
     "browserslist": [
         "last 1 version",
