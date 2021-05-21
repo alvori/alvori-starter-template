@@ -81,7 +81,7 @@ exports.complete = async ({ name, projectDir, answers, chalk, installed }) => {
 
     To get started:
 
-    ${chalk.yellow(installed ? `cd ${name}\n` : `npm install (or if using yarn: yarn)\n`)}
+    ${chalk.yellow(installed ? `cd ${name}\n` : `npm install\n`)}
     Run project in development mode: ${chalk.yellow(`alvori dev`)}
 
     Please give us a star on Github if you appreciate our work:
