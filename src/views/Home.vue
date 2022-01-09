@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import { useMeta } from '../plugins/meta'
+import { useMeta } from '@alvori/app'
 
 export default {
     name: 'Home',

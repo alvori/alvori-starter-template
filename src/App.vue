@@ -7,7 +7,13 @@
             <router-link to="/">Home</router-link><span> | </span>
             <router-link to="/about">About</router-link>
         </nav>
-        <router-view />
+        <router-view v-slot="{ Component }">
+            <suspense>
+                <div>
+                    <component :is="Component" />
+                </div>
+            </suspense>
+        </router-view>
     </div>
 </template>
 
